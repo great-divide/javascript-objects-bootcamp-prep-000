@@ -21,7 +21,7 @@ describe('objects', () => {
     expect(Object.keys(playlist).length).to.be.greaterThan(0)
   })
 
-  describe('updatePlaylist(playlist, artistName, songTitle'), () => {
+  describe('updatePlaylist(playlist, artistName, songTitle)', () => {
     before(() => {
       playlist['Slowdive'] = 'Alison'
       playlist['My Bloody Valentine'] = 'Sometimes'
